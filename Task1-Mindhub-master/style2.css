@@ -1,0 +1,130 @@
+/* General */
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+}
+
+/* Header */
+
+h1{
+  font-size: 70px;
+  position: relative;
+  bottom: 100px;
+
+}
+
+header{
+  background-image: url("img/design1_image2.jpg");
+  background-repeat: no-repeat;
+  height: 400px;
+  position: relative;
+  top: 100px;
+}
+
+nav{
+  display: inline-block;
+  position: relative;
+  left: 1150px;
+  bottom: 110px;
+}
+
+a{
+  background: blue;
+  color: #ffffff;
+  outline: none;
+  text-decoration: none;
+  border: solid 2px #000000;
+  font-size: 20px;
+  box-shadow: 5px 3px gray;
+  padding: 10px;
+}
+
+.a-home{
+  background: green;
+  color: #ffffff;
+}
+
+.a-about{
+  background: green;
+  color: #ffffff;
+}
+
+.a-contact{
+  background: green;
+  color: #ffffff;
+}
+
+.contenedor-logo{
+  position: absolute;
+  top: 450px;
+  left: 50px;
+
+}
+
+.logo{
+  width: 150px;
+}
+
+
+
+/* Main */
+
+.T-principal{
+  position: relative;
+  top: 100px;
+  text-align: center;
+  font-size: 30px;
+  border: solid 1px #000000;
+}
+
+.jockey-1{
+  display: none;
+}
+
+/* Home */
+
+.section{
+  position: absolute;
+  top: 570px;
+  left: 300px;
+}
+
+
+p{
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+/* About */
+
+.articulo{
+  position: absolute;
+  top: 570px;
+  left: 300px;
+  right: 100px;
+}
+
+div{
+  padding-bottom: 20px;
+}
+
+
+/* Contact */
+
+.contenedor-mail{
+  position: absolute;
+  top: 600px;
+  left: 300px; 
+}
+
+.mail{
+  background: #ffffff;
+  color: #000000;
+  border: none;
+  box-shadow: none;
+}
