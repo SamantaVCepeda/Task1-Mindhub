@@ -1,0 +1,133 @@
+/* General */
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Header */
+
+header{
+  background-image: url("img/design1_image1.jpg");
+  height: 500px;
+  background-position: center;
+  border-bottom: solid 2px #5fa199;
+}
+nav{
+  position: absolute;
+  left: 1100px;
+  top: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #f8e12e;
+  background: #5fa199;
+  text-shadow: 1px 1px #c64832;
+  font-weight: 600;
+  border: solid 1px #c64832;
+  padding: 5px;
+}
+
+.a-home{
+  color: black;
+  text-shadow: 1px 1px #f8e12e;
+}
+
+.a-about{
+  color: black;
+  text-shadow: 1px 1px #f8e12e;
+}
+
+.a-contact{
+  color: black;
+  text-shadow: 1px 1px #f8e12e;
+}
+
+.contenedor-logo{
+  position: absolute;
+}
+
+.logo{
+  width: 150px;
+}
+
+h1{
+  display: none;
+}
+
+/* Main */
+
+main{
+  background-color: #f8e12e;
+}
+
+.jockey-1{
+  width: 400px;
+  position: absolute;
+  top: 600px;
+  left: 100px;
+  border: solid 2px #5fa199;
+  border-radius: 5px;
+}
+
+.T-principal{
+  text-align: center;
+  color: #5fa199;
+  font-size: 40px;
+}
+
+/* Home */
+
+.section{
+  position: absolute;
+  top: 600px;
+  left: 600px;
+}
+
+article{
+  padding-bottom: 20px;
+}
+
+h3{
+  color: #5fa199;
+}
+
+/* About */
+
+.articulo{
+  position: absolute;
+  top: 600px;
+  left: 600px;
+  right: 100px;
+}
+
+h2{
+  color: #5fa199;
+}
+
+div{
+  padding-bottom: 20px;
+}
+
+/* Contact */
+
+.contenedor-mail{
+  position: absolute;
+  text-align: center;
+  top: 600px;
+  left: 600px;
+}
+
+p{
+  padding-bottom: 20px;
+}
+
+.mail{
+  background: #ffffff;
+  border: none;
+}
