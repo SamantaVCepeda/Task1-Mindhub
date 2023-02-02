@@ -12,10 +12,10 @@
 /* Header */
 
 h1{
+  display: flex;
   font-size: 70px;
   position: relative;
   bottom: 100px;
-
 }
 
 header{
@@ -27,16 +27,14 @@ header{
 }
 
 nav{
-  display: inline-block;
-  position: relative;
-  left: 1150px;
-  bottom: 110px;
+  position: absolute;
+  left: 1100px;
+  bottom: 400px;
 }
 
 a{
   background: blue;
   color: #ffffff;
-  outline: none;
   text-decoration: none;
   border: solid 2px #000000;
   font-size: 20px;
@@ -54,22 +52,37 @@ a{
   color: #ffffff;
 }
 
+.a-games{
+  background: green;
+  color: #ffffff;
+}
+
+.a-rules{
+  background: green;
+  color: #ffffff;
+}
+
 .a-contact{
   background: green;
   color: #ffffff;
 }
 
 .contenedor-logo{
-  position: absolute;
-  top: 450px;
-  left: 50px;
-
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  top: 400px;
+  padding-left: 50px;
+  
 }
 
 .logo{
   width: 150px;
 }
 
+#t-principal{
+  top: 145px;
+}
 
 
 /* Main */
@@ -90,8 +103,8 @@ a{
 
 .section{
   position: absolute;
-  top: 570px;
-  left: 300px;
+  top: 600px;
+  left: 500px;
 }
 
 
@@ -104,22 +117,61 @@ p{
 
 .articulo{
   position: absolute;
-  top: 570px;
-  left: 300px;
-  right: 100px;
+  top: 600px;
+  left: 500px;
+  right: 250px;
 }
 
 div{
   padding-bottom: 20px;
 }
 
+/* Games */
+
+.game{
+  position: absolute;
+  top: 620px;
+  left: 500px;
+  right: 250px;
+}
+
+table th, table td{
+  padding: 20px;
+}
+
+.e-mail{
+  background: #ffffff;
+  color: #000000;
+  border: none;
+  box-shadow: none;
+
+}
+
+.email{
+  position: absolute;
+  left: 500px;
+  bottom: 20px;
+}
+
+/* Rules */
+
+section{
+  position: absolute;
+  top: 630px;
+  left: 500px;
+  right: 100px;
+}
+
+article{
+  padding: 20px;
+}
 
 /* Contact */
 
 .contenedor-mail{
   position: absolute;
   top: 600px;
-  left: 300px; 
+  left: 500px;
 }
 
 .mail{
