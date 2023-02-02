@@ -62,10 +62,6 @@ h1{
 
 /* Main */
 
-main{
-  background-color: #f8e12e;
-}
-
 .jockey-1{
   width: 400px;
   position: absolute;
@@ -76,9 +72,16 @@ main{
 }
 
 .T-principal{
+  background: #f8e12e;
   text-align: center;
   color: #5fa199;
   font-size: 40px;
+}
+
+#t-principal{
+  background: #f8e12e;
+  position: relative;
+  top: 500px;
 }
 
 /* Home */
@@ -112,6 +115,48 @@ h2{
 
 div{
   padding-bottom: 20px;
+}
+
+/* Games */
+
+.game{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 600px;
+  left: 500px;
+}
+
+table th, table td{
+  padding: 30px;
+}
+
+.email{
+  position: absolute;
+  left: 700px;
+  bottom: 15px;
+}
+
+.e-mail{
+  background: #ffffff;
+  border: none;
+}
+
+/* Rules */
+
+section{
+  position: absolute;
+  top: 600px;
+  left: 100px;
+}
+
+article{
+  padding: 20px;
+}
+
+.titulo-rules{
+  display: flex;
+  justify-content: center;
 }
 
 /* Contact */
