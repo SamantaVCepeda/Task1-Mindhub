@@ -19,7 +19,7 @@ header{
 }
 nav{
   position: absolute;
-  left: 1100px;
+  left: 1000px;
   top: 20px;
 }
 
@@ -128,7 +128,21 @@ div{
 }
 
 table th, table td{
-  padding: 30px;
+  padding: 20px;
+}
+
+.maps{
+  margin: 20px;
+}
+
+
+iframe{
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.maps h3{
+  padding-bottom: 30px;
 }
 
 .email{
@@ -159,6 +173,63 @@ article{
   justify-content: center;
 }
 
+/* Registration */
+
+form{
+  padding: 100px 200px;
+}
+
+fieldset{
+  padding: 20px;
+  background: #f8e12e;
+}
+
+.fieldset1{
+  display: flex;
+  flex-direction: column;
+}
+
+legend{
+  font-weight: 700;
+}
+
+.submit{
+  background: #5fa199;
+  border: solid 3px #5fa199;
+  padding: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.submit:hover{
+  background: #ffffff;
+  color: #5fa199;
+}
+
+.reset{
+  background: #f8e12e;
+  border: solid 3px #f8e12e;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  margin-left: 50px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.reset:hover{
+  background: #ffffff;
+  color: #f8e12e;
+}
+
+.fieldset8{
+  background: #ffffff;
+}
+
 /* Contact */
 
 .contenedor-mail{
@@ -175,4 +246,12 @@ p{
 .mail{
   background: #ffffff;
   border: none;
+}
+
+/* Show_data */
+
+.h1{
+  display: flex;
+  position: absolute;
+  bottom: 950px;
 }
