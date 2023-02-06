@@ -12,7 +12,7 @@
 /*Header*/
 
 header{
-  background-image: url("img/design1_image1.jpg");
+  background-image: url("./img/design1_image1.jpg");
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -56,6 +56,11 @@ a{
   color: #000000;
 }
 
+.a-registration{
+  text-decoration: none;
+  color: #000000;
+}
+
 .a-contact{
   text-decoration: none;
 }
@@ -93,7 +98,7 @@ a{
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 500px;
+  left: 300px;
   top: 550px;
 }
 
@@ -107,7 +112,7 @@ article{
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 500px;
+  left: 300px;
   top: 550px;
   right: 250px;
   padding: 20px;
@@ -127,13 +132,26 @@ p{
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 500px;
+  left: 300px;
   top: 550px;
   right: 250px;
 }
 
 table th, table td{
   padding: 10px;
+}
+
+.maps{
+  margin: 20px;
+}
+
+.maps h3{
+  padding-bottom: 30px;
+}
+
+iframe{
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
 
 .email{
@@ -155,7 +173,7 @@ section{
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 500px;
+  left: 300px;
   top: 550px;
   right: 250px;
 }
@@ -165,13 +183,66 @@ section{
   justify-content: center;
 }
 
+/* Registration */
+
+form{
+  padding: 100px 200px;
+}
+
+fieldset{
+  padding: 20px;
+}
+
+.fieldset1{
+  display: flex;
+  flex-direction: column;
+}
+
+legend{
+  font-weight: 700;
+}
+
+.submit{
+  background: #5fa199;
+  border: solid 3px #5fa199;
+  padding: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.submit:hover{
+  background: #ffffff;
+  color: #5fa199;
+}
+
+.reset{
+  background: #f8e12e;
+  border: solid 3px #f8e12e;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  margin-left: 50px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.reset:hover{
+  background: #ffffff;
+  color: #f8e12e;
+}
+
+
 /* Contact */
 
 .contenedor-mail{
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 500px;
+  left: 300px;
   top: 550px;
 }
 
