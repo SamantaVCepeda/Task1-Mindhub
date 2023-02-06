@@ -13,7 +13,7 @@
 
 h1{
   display: flex;
-  font-size: 70px;
+  font-size: 60px;
   position: relative;
   bottom: 100px;
 }
@@ -28,7 +28,7 @@ header{
 
 nav{
   position: absolute;
-  left: 1100px;
+  left: 1000px;
   bottom: 400px;
 }
 
@@ -57,6 +57,11 @@ a{
   color: #ffffff;
 }
 
+.a-registration{
+  background: green;
+  color: #ffffff;
+}
+
 .a-rules{
   background: green;
   color: #ffffff;
@@ -81,7 +86,7 @@ a{
 }
 
 #t-principal{
-  top: 145px;
+  top: 160px;
 }
 
 
@@ -139,6 +144,19 @@ table th, table td{
   padding: 20px;
 }
 
+.maps{
+  margin: 20px;
+}
+
+
+iframe{
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.maps h3{
+  padding-bottom: 30px;
+}
+
 .e-mail{
   background: #ffffff;
   color: #000000;
@@ -157,13 +175,72 @@ table th, table td{
 
 section{
   position: absolute;
-  top: 630px;
+  top: 600px;
   left: 500px;
   right: 100px;
 }
 
+.titulo-rules{
+  display: flex;
+  justify-content: center;
+}
+
 article{
   padding: 20px;
+}
+
+/* Registration */
+
+form{
+  padding: 100px 250px;
+  position: absolute;
+  top: 500px;
+}
+
+fieldset{
+  padding: 20px;
+}
+
+.fieldset1{
+  display: flex;
+  flex-direction: column;
+}
+
+legend{
+  font-weight: 700;
+}
+
+.submit{
+  background: #5fa199;
+  border: solid 3px #5fa199;
+  padding: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.submit:hover{
+  background: #ffffff;
+  color: #5fa199;
+}
+
+.reset{
+  background: #f8e12e;
+  border: solid 3px #f8e12e;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  margin-left: 50px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.reset:hover{
+  background: #ffffff;
+  color: #f8e12e;
 }
 
 /* Contact */
@@ -179,4 +256,12 @@ article{
   color: #000000;
   border: none;
   box-shadow: none;
+}
+
+/* Show_data */
+
+.h1{
+  display: flex;
+  position: absolute;
+  bottom: 950px;
 }
